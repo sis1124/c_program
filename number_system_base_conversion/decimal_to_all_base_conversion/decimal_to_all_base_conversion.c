@@ -1,7 +1,7 @@
 /*
 	documentation:
 
-	Decimal to hexa decimal to decimal converter helps you to calculate decimal value from a hexa decimal number and hexa decimal value from a decimal number.	
+	decimal to all base convertor help you to convert any base to decimal and decimal to any base.	
 */
 #include <stdio.h>
 #include <string.h>
