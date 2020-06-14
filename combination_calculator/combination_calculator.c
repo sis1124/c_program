@@ -14,18 +14,11 @@ int factorial(int n)
 	}
 	return sum;
 }
-int main()
+void comb(int n, int r)
 {
-	int screen;
-	int n, r, n_minus_r, down_factorial, result;
-
-	printf("enter n: ");
-	scanf("%d", &n);
-	printf("enter r: ");
-	scanf("%d", &r);
+	int n_minus_r, down_factorial, result;
 
 	n_minus_r = n - r;
-
 	down_factorial = factorial(n_minus_r) * factorial(r);
 
 	if(down_factorial < 0){
@@ -35,6 +28,19 @@ int main()
 	result = factorial(n) / down_factorial;
 	
 	printf("%dc%d = %d\n", n, r, result);
+}
+int main()
+{
+	int screen;
+	int n, r;
+
+	printf("enter n: ");
+	scanf("%d", &n);
+	printf("enter r: ");
+	scanf("%d", &r);
+	
+	comb(n, r);
+
 	scanf("%d", &screen);
 	return 0;
 }

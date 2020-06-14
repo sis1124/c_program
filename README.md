@@ -7,3 +7,4 @@ hope it might help you.
 * combination calculator
 * trigonometric ratio
 * number system base conversion
+* permutations calculator
