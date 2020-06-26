@@ -8,3 +8,4 @@ hope it might help you.
 * trigonometric ratio
 * number system base conversion
 * permutations calculator
+* zero21 solitaire game
