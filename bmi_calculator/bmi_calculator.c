@@ -1,3 +1,8 @@
+  
+/*
+	documentation:
+	The program prints your Body Mass Index(BMI) and your health condition.
+*/
 #include <stdio.h>
 
 int main()
