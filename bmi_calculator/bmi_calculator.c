@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+  
+>>>>>>> bebe69e70dda805e6a3286dbf1d905dc151e2902
 /*
 	documentation:
 	The program prints your Body Mass Index(BMI) and your health condition.
