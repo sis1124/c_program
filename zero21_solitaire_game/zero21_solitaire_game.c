@@ -1,3 +1,11 @@
+/*
+	documentation:
+
+	Zero21 Solitaire. Zero21 is a challenging game with a simple rule:
+	Try to stay between 0 and 21.
+	Zero21 Solitaire is a fun numbers game with solitaire
+	flavor to relax and unwind while keeping your mind sharp.
+*/
 #include <stdio.h>
 #include <time.h>
 
